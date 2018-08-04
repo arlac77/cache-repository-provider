@@ -14,3 +14,21 @@
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![downloads](http://img.shields.io/npm/dm/cache-repository-provider.svg?style=flat-square)](https://npmjs.org/package/cache-repository-provider)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+# cache-repository-provider
+
+caches repository provider content
+
+# API
+
+# install
+
+With [npm](http://npmjs.org) do:
+
+```shell
+npm install cache-repository-provider
+```
+
+# license
+
+BSD-2-Clause
