@@ -11,7 +11,16 @@ export default {
     sourcemap: true,
     interop: false
   },
-  external: ['ava'],
+  external: [
+    'ava',
+    'path',
+    'util',
+    'fs',
+    'events',
+    'assert',
+    'stream',
+    'buffer'
+  ],
   plugins: [
     multiEntry(),
     resolve(),

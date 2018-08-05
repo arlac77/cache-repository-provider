@@ -3,7 +3,6 @@ import commonjs from 'rollup-plugin-commonjs';
 import executable from 'rollup-plugin-executable';
 import pkg from './package.json';
 
-
 export default [
   ...Object.keys(pkg.bin || {}).map(name => {
     return {
@@ -11,7 +10,8 @@ export default [
       output: {
         file: pkg.bin[name],
         format: 'cjs',
-        banner: '#!/usr/bin/env node'
+        banner: '#!/usr/bin/env node',
+        interop: false
       },
       plugins: [resolve(), commonjs(), executable()]
     };
@@ -20,7 +20,8 @@ export default [
     input: pkg.module,
     output: {
       file: pkg.main,
-      format: 'cjs'
+      format: 'cjs',
+      interop: false
     },
     plugins: [resolve(), commonjs()]
   }
