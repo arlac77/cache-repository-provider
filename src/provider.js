@@ -7,13 +7,18 @@ import { Provider } from 'repository-provider';
  * @param {Levelup} options.levelup
  * @property {Provider} provider
  */
-export class CacheProvider {
-
-  constructor(options,provider)
-  {
-
+export class CacheProvider extends Provider {
+  constructor(options, provider) {
+    super(options);
+    Object.defineProperty(this, 'upstreamProvider', { value: provider });
   }
 
+  async repository(name) {
+    const repository = await upstreamProvider.repository(name);
+    return repository;
+  }
+
+  /*
   static initialize(provider) {
     return new Proxy(provider, {
       get(target, name) {
@@ -29,4 +34,5 @@ export class CacheProvider {
       }
     });
   }
+  */
 }
