@@ -14,17 +14,11 @@ test('get single repo', async t => {
     GithubProvider.optionsFromEnvironment(process.env)
   );
 
-  /*
   const leveldb = levelup(leveldown(join(__dirname, '..', 'build', 'leveldb')));
-  const provider = new CacheProvider(
-    {
-      leveldb
-    },
-    github
-  );
-*/
-  /*
+  const provider = new CacheProvider(undefined, {
+    leveldb
+  });
+
   const repository = await provider.repository(REPOSITORY_NAME);
   t.is(repository.name, REPOSITORY_NAME);
-  */
 });

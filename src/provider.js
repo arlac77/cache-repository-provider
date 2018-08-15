@@ -8,9 +8,12 @@ import { Provider } from 'repository-provider';
  * @property {Provider} provider
  */
 export class CacheProvider extends Provider {
-  constructor(options, provider) {
+  constructor(provider, options) {
     super(options);
-    Object.defineProperty(this, 'upstreamProvider', { value: provider });
+    Object.defineProperties(this, {
+      leveldb: options.leveldb,
+      upstreamProvider: { value: provider }
+    });
   }
 
   async repository(name) {
