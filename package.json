@@ -68,6 +68,10 @@
     "files": [
       "tests/*-test.js",
       "tests/*-test.mjs"
+    ],
+    "extensions": [
+      "js",
+      "mjs"
     ]
   },
   "template": {
