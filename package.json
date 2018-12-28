@@ -28,6 +28,7 @@
     "travis-deploy-once": "travis-deploy-once"
   },
   "dependencies": {
+    "content-entry": "^1.8.1",
     "repository-provider": "^9.0.1"
   },
   "devDependencies": {
