@@ -4,8 +4,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/provider.js",
-  "module": "src/provider.js",
+  "main": "src/provider.mjs",
+  "module": "src/provider.mjs",
   "description": "caches repository provider content",
   "keywords": [
     "cache"
@@ -19,8 +19,8 @@
   "license": "BSD-2-Clause",
   "scripts": {
     "cover": "c8 --temp-directory build/coverage ava && c8 report -r lcov --temp-directory build/coverage",
-    "docs": "documentation readme src/provider.js --section=API",
-    "lint": "documentation lint src/provider.js",
+    "docs": "documentation readme src/provider.mjs --section=API",
+    "lint": "documentation lint src/provider.mjs",
     "posttest": "markdown-doctest && npm run prepare",
     "test": "ava"
   },
