@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "content-entry": "^2.1.4",
-    "repository-provider": "^16.6.0"
+    "repository-provider": "^16.7.0"
   },
   "devDependencies": {
     "ava": "^2.2.0",
