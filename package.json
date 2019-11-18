@@ -38,7 +38,7 @@
     "leveldown": "^5.4.0",
     "levelup": "^4.3.1",
     "markdown-doctest": "^0.9.1",
-    "semantic-release": "^15.13.30"
+    "semantic-release": "^15.13.31"
   },
   "engines": {
     "node": ">=12.12.0"
