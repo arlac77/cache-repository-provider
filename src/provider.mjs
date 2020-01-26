@@ -2,17 +2,17 @@ import { Provider } from 'repository-provider';
 
 /**
  * Caches access to a repsository provider
- * @param {Provider} provider to be cached
+ * @param {Provider} upstreamProvider to be cached
  * @param {Object} options
  * @param {Levelup} options.levelup
  * @property {Provider} provider
  */
 export class CacheProvider extends Provider {
-  constructor(provider, options) {
+  constructor(upstreamProvider, options) {
     super(options);
     Object.defineProperties(this, {
       leveldb: options.leveldb,
-      upstreamProvider: { value: provider }
+      upstreamProvider: { value: upstreamProvider }
     });
   }
 
