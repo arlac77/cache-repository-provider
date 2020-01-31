@@ -1,0 +1,10 @@
+{
+  "name": "cache-repository-provider",
+  "description": "caches repository provider content",
+  "icons": [
+    {
+      "src": "facicon.ico",
+      "sizes": "16x16"
+    }
+  ]
+}
