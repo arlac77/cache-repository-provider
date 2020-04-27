@@ -30,7 +30,7 @@
     "repository-provider": "^16.17.5"
   },
   "devDependencies": {
-    "ava": "^3.8.0",
+    "ava": "^3.8.1",
     "c8": "^7.1.0",
     "documentation": "^12.3.0",
     "github-repository-provider": "^2.1.3",
