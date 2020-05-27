@@ -8,8 +8,7 @@
   "type": "module",
   "main": "./src/provider.mjs",
   "exports": {
-    ".": "./src/provider.mjs",
-    "./": "./"
+    ".": "./src/provider.mjs"
   },
   "description": "caches repository provider content",
   "keywords": [
