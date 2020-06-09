@@ -32,7 +32,7 @@ Caches access to a repsository provider
 
 ### Parameters
 
--   `provider` **Provider** to be cached
+-   `upstreamProvider` **Provider** to be cached
 -   `options` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
     -   `options.levelup` **Levelup** 
 
