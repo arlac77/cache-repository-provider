@@ -39,7 +39,7 @@
     "c8": "^7.3.5",
     "documentation": "github:arlac77/documentation",
     "github-repository-provider": "^7.18.20",
-    "semantic-release": "^17.2.2"
+    "semantic-release": "^17.2.3"
   },
   "engines": {
     "node": ">=12.19.0"
