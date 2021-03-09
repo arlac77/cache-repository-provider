@@ -36,7 +36,7 @@
     "ava": "^3.15.0",
     "c8": "^7.6.0",
     "documentation": "github:arlac77/documentation",
-    "github-repository-provider": "^7.21.16",
+    "github-repository-provider": "^7.22.0",
     "semantic-release": "^17.4.1"
   },
   "engines": {
