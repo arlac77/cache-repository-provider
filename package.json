@@ -29,7 +29,7 @@
     "lint:docs": "documentation lint ./src/**/*.mjs"
   },
   "dependencies": {
-    "content-entry": "^2.9.2",
+    "content-entry": "^2.9.3",
     "repository-provider": "^25.5.7"
   },
   "devDependencies": {
