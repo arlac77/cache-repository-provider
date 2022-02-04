@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "content-entry": "^4.1.4",
-    "repository-provider": "^26.5.0"
+    "repository-provider": "^26.6.0"
   },
   "devDependencies": {
     "ava": "^4.0.1",
