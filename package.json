@@ -30,13 +30,13 @@
   },
   "dependencies": {
     "content-entry": "^4.1.5",
-    "repository-provider": "^26.7.6"
+    "repository-provider": "^27.0.0"
   },
   "devDependencies": {
     "ava": "^4.0.1",
     "c8": "^7.11.0",
     "documentation": "^13.2.5",
-    "github-repository-provider": "^7.25.36",
+    "github-repository-provider": "^7.25.37",
     "semantic-release": "^19.0.2"
   },
   "engines": {
