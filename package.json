@@ -6,7 +6,7 @@
   },
   "sideEffects": false,
   "exports": {
-    ".": "./src/provider.mjs"
+    ".": "./src/module.mjs"
   },
   "description": "caches repository provider content",
   "keywords": [
@@ -40,7 +40,7 @@
     "semantic-release": "^19.0.2"
   },
   "engines": {
-    "node": ">=14.19.0"
+    "node": ">=16.14.0"
   },
   "repository": {
     "type": "git",
