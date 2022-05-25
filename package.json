@@ -36,7 +36,7 @@
     "ava": "^4.2.0",
     "c8": "^7.11.3",
     "documentation": "^13.2.5",
-    "github-repository-provider": "^7.26.40",
+    "github-repository-provider": "^7.27.1",
     "semantic-release": "^19.0.2"
   },
   "engines": {
