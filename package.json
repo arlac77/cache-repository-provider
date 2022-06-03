@@ -29,14 +29,14 @@
     "lint:docs": "documentation lint ./src/**/*.mjs"
   },
   "dependencies": {
-    "content-entry": "^5.0.2",
-    "repository-provider": "^31.2.2"
+    "content-entry": "^5.0.3",
+    "repository-provider": "^31.2.3"
   },
   "devDependencies": {
     "ava": "^4.3.0",
     "c8": "^7.11.3",
     "documentation": "^13.2.5",
-    "github-repository-provider": "^7.30.3",
+    "github-repository-provider": "^7.30.4",
     "semantic-release": "^19.0.2"
   },
   "engines": {
